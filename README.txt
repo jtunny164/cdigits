@@ -1,5 +1,5 @@
 # cdigits
-Initial code for coding puzzle
+Final code for coding puzzle
 This is a version in Python 3, with copious comments that should make it self-documenting.
 Here is output from a sample run (which also displays the goal of the program):
 
