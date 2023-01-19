@@ -21,15 +21,15 @@ def gen_possible():
     d = [0] * 11                # just pre-size digit list
     odddigit = [1,3,7,9]
     evendigit = [2,4,6,8]
-    d[1] = odddigit             # must be odd [1,2,7,9]
+    d[1] = odddigit             # must be odd [1,3,7,9]
     d[2] = evendigit            # must be even
-    d[3] = odddigit             # must be odd [1,2,7,9]
+    d[3] = odddigit             # must be odd [1,3,7,9]
     d[4] = evendigit            # must be even
     d[5] = [5]                  # must be 5 (0 will be in the final place)
     d[6] = evendigit            # must be even
-    d[7] = odddigit             # must be odd [1,2,7,9]
+    d[7] = odddigit             # must be odd [1,3,7,9]
     d[8] = evendigit            # must be even
-    d[9] = odddigit             # must be odd [1,2,7,9]
+    d[9] = odddigit             # must be odd [1,3,7,9]
     d[10] = [0]                 # must be zero
     for d1 in d[1]:
         for d2 in d[2]:
